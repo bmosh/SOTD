@@ -85,4 +85,5 @@ def recSongs(recs):
     return uri_list
 
 
-createSOTDList(sotd_uri)
+# createSOTDList(sotd_uri)
+sp.current_user_playlists()
